@@ -1,0 +1,99 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin:0;
+}
+nav {
+    float:left;
+    background-color: #9418a2;
+    color:white;
+    width:100%;
+    top:0;
+    position:sticky;
+    z-index:2;
+}
+nav a {
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    float:left;
+    background-color: #9418a2;
+    border: 1px solid #9418a2;
+    color:white;
+}
+nav a:hover  {
+    background-color:lightgray;
+    color:black;
+}
+nav a:active {
+    background-color: #480c41;
+    color:black;
+}
+header {
+    background-color: #234be5;
+    padding:5px 0;
+}
+header h2 {
+    color:white;
+    margin-left:15px;
+    font-size:30px;
+}
+footer {
+    width:100%;
+    height:200px;
+    background-color:black;
+    bottom: 0;
+}
+footer a:visited {
+    color:white;
+}
+footer a {
+    padding:5px;
+    color:white;
+    display:block;
+}
+.links {
+    margin-left:10px;
+}
+#copyright {
+    color: #ffffff;
+    margin-top:-50px;
+    text-align: right;
+}
+.test {
+
+    float: right;
+    font-size: 30px;
+}
+
+.img {
+    margin-top: 7% ;
+    margin-left: 2%;
+}
+h3{
+   float:right;
+    margin-right:20%;
+    margin-top:-400px;
+    font-size: 2vh;
+}
+.concertpagina{
+   text-align: center;
+}
+.btn{
+    margin: 5px;
+    position:relative;
+    padding: 15px 50px;
+    border-color: gray;
+    border-width: 4px;
+    border-radius: 3px;
+    background-color:darkgray;
+    cursor: pointer;
+    font-size: 15px;
+
+ margin-top: 10vh;
+    float:left;
+    margin-left: 20px;
+}
+
+body{
+
+    background-image: url('img/sky.jpg');
+}
